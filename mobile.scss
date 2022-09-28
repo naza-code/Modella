@@ -1,4 +1,6 @@
-#sectionone{
+  //  @media (max-width:'600px'){
+   
+   #sectionone{
   grid-template-columns: 1fr;
   margin-left: 0.75rem;
 }
@@ -6,6 +8,10 @@
 .card{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+body{
+  background-color: red;
 }
 
 

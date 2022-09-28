@@ -1,0 +1,229 @@
+#header {
+  background: url("./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+#header #mainheader {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+#header #mainheader h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#header #navbarone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+#header #navbarone ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header #navbarone li {
+  padding: 1rem;
+}
+
+#header #navbarone h1 {
+  padding-left: 1rem;
+}
+
+#header #navbarone a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+
+#header #navbarone a:hover {
+  border-color: #e21515;
+}
+
+#header .btn {
+  cursor: pointer;
+  padding: 0.75rem;
+  color: #fff;
+  background-color: #e21515;
+}
+
+#header .btn:hover {
+  color: #e21515;
+  background-color: #fff;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.maincolor {
+  color: #e21515;
+}
+
+#navbartwo {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: red;
+}
+
+#navbartwo h1 {
+  color: white;
+}
+
+#headerinner {
+  background: url("./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg") no-repeat center 20%/cover;
+}
+
+#headerinner #mainheader {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+#headerinner #mainheader h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#headerinner #navbarone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+#headerinner #navbarone ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#headerinner #navbarone li {
+  padding: 1rem;
+}
+
+#headerinner #navbarone h1 {
+  padding-left: 1rem;
+}
+
+#headerinner #navbarone a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+
+#headerinner #navbarone a:hover {
+  border-color: #e21515;
+}
+
+.card {
+  text-align: center;
+  background-color: #222;
+}
+
+img {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+#name {
+  color: #fff;
+}
+
+#model {
+  color: #fff;
+}
+
+#info {
+  color: #fff;
+}
+
+#two {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.borderline {
+  height: 2px;
+  width: 3rem;
+  background: #e21515;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.previousbtn,
+.nextbtn {
+  padding: 0.75rem;
+  color: #e21515;
+  background-color: #fff;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.previousbtn:hover,
+.nextbtn:hover {
+  cursor: pointer;
+  padding: 0.75rem;
+  color: #fff;
+  background-color: #e21515;
+}
+
+#sectionone {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-left: 3rem;
+}
+
+#sectionone div {
+  padding: 4rem;
+  background-color: #333;
+  color: #fff;
+  -webkit-box-shadow: 10px 10px 20px #333;
+          box-shadow: 10px 10px 20px #333;
+}
+
+#sectionone .btn {
+  cursor: pointer;
+  padding: 0.75rem;
+  color: #fff;
+  background-color: #e21515;
+}
+
+#sectionone .btn:hover {
+  color: #e21515;
+  background-color: #fff;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#one h2 {
+  text-align: center;
+  border-bottom: 1px solid red;
+  margin-top: 1rem;
+}
+
+#mainfooter {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

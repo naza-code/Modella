@@ -1,0 +1,246 @@
+#header{
+
+  background: url('./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg') no-repeat center center/cover;
+  height: 100vh;
+  // text-align: center;
+    #mainheader{
+      text-align: center;
+      margin-top: 7rem;
+
+      h1{
+        font-size: 4rem;
+        color: #fff;
+      }
+    }
+   
+    #navbarone{
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+
+      ul{
+        list-style: none;
+        display: flex;
+      }
+
+      li{
+        padding: 1rem;
+      }
+
+      h1{
+        padding-left: 1rem;
+      }
+
+      a{
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.5s;
+      }
+
+      a:hover{
+        border-color: rgb(226, 21, 21);
+      }
+
+      
+    }
+   
+
+
+  .btn{
+    cursor: pointer;
+    padding: 0.75rem;
+    color:#fff;
+    background-color: rgb(226, 21, 21);
+  }
+
+  .btn:hover{
+    color: rgb(226, 21, 21);
+    background-color: #fff;
+    transition: all 2s;
+  }
+}
+
+.maincolor{
+  color: rgb(226, 21, 21);
+}
+
+
+#navbartwo{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: red;
+
+
+  h1{
+    color: white;
+  }
+}
+
+// Models Pae
+#headerinner{
+  background: url('./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg') no-repeat center 20%/cover;
+  
+
+  #mainheader{
+    text-align: center;
+    margin-top: 7rem;
+
+    h1{
+      font-size: 4rem;
+      color: #fff;
+    }
+  }
+ 
+  #navbarone{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    ul{
+      list-style: none;
+      display: flex;
+    }
+
+    li{
+      padding: 1rem;
+    }
+
+    h1{
+      padding-left: 1rem;
+    }
+
+    a{
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.5s;
+    }
+
+    a:hover{
+      border-color: rgb(226, 21, 21);
+    }
+
+    
+  }
+ 
+
+
+
+}
+
+
+// .card{
+//   background-color: #222;
+//   text-align: center;
+//   margin-left: 15rem;
+//   margin-right: 15rem;
+//   padding-bottom: 1rem;
+
+   
+// }
+
+.card{
+  text-align: center;
+  background-color: #222;
+}
+
+img{
+  width: 20rem;
+  border-radius: 50%;
+}
+
+#name{
+  color: #fff;
+}
+
+#model{
+  color: #fff;
+}
+
+#info{
+  color: #fff;
+}
+
+#two {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.borderline{
+  height: 2px;
+  width: 3rem;
+  background: rgb(226, 21, 21);
+  display: block;
+  margin:0 auto 1rem auto ;
+}
+
+.previousbtn,
+.nextbtn{
+  
+    
+  
+
+  padding: 0.75rem;
+    color: rgb(226, 21, 21);
+    background-color: #fff;
+    transition: all 2s;
+  
+}
+
+.previousbtn:hover,
+.nextbtn:hover{
+  cursor: pointer;
+  padding: 0.75rem;
+  color:#fff;
+  background-color: rgb(226, 21, 21);
+}
+
+
+#sectionone{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-left:3rem;
+
+  div{
+    padding: 4rem;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 10px 10px 20px #333;
+    
+  }
+
+  .btn{
+    cursor: pointer;
+    padding: 0.75rem;
+    color:#fff;
+    background-color: rgb(226, 21, 21);
+  }
+
+  .btn:hover{
+    color: rgb(226, 21, 21);
+    background-color: #fff;
+    transition: all 2s;
+  }
+}
+
+#one{
+  h2{
+    text-align: center;
+    border-bottom: 1px solid red;
+    margin-top: 1rem;
+  }
+}
+
+
+#mainfooter{
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  // border: 1px solid rgb(226, 21, 21);
+  padding: 0.75rem;
+  margin-top: 1rem;
+  // font-size: 0.75rem;
+}

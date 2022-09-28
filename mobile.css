@@ -1,3 +1,9 @@
+#sectionone {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin-left: 0.75rem;
+}
+
 .card {
   margin-left: 0.75rem;
   margin-right: 0.75rem;

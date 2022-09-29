@@ -270,7 +270,7 @@ img{
   // background-color: #333;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1;
+  grid-gap: 1rem;
   padding: 1rem;
   // margin-left: 10rem;
   text-align: center;
@@ -295,7 +295,7 @@ i{
 
 input,
 textarea{
-  width: 50%;
+  width: 75%;
   margin-top: 1rem;
   padding: 0.45rem;
   border-radius: 4px;

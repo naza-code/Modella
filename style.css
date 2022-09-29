@@ -217,7 +217,7 @@ img {
 #one h2 {
   text-align: center;
   border-bottom: 1px solid red;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #mainfooter {
@@ -226,5 +226,73 @@ img {
   color: #fff;
   padding: 0.75rem;
   margin-top: 1rem;
+}
+
+.two {
+  text-align: center;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.headcontact {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.maincontact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.maincontact h3 {
+  color: #e21515;
+  color: #fff;
+}
+
+.maincontact p {
+  color: #fff;
+}
+
+i {
+  background-color: #e21515;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #fff;
+}
+
+input,
+textarea {
+  width: 50%;
+  margin-top: 1rem;
+  padding: 0.45rem;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #e21515;
+  outline: none;
+}
+
+#button {
+  border: none;
+  background-color: #e21515;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.25rem;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#button:hover {
+  background-color: #fff;
+  color: #e21515;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

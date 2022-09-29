@@ -49,4 +49,13 @@
             align-items: center;
   }
 }
+
+.maincontact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 1rem;
+  text-align: center;
+}
 /*# sourceMappingURL=mobile.css.map */

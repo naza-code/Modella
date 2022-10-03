@@ -58,4 +58,9 @@
   padding: 1rem;
   text-align: center;
 }
+
+.about {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
 /*# sourceMappingURL=mobile.css.map */

@@ -81,7 +81,7 @@
 
 // Models Pae
 #headerinner{
-  background: url('./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg') no-repeat center 20%/cover;
+  background: url('./IMG/deji-akinyele-ARm28szwP0o-unsplash.jpg') no-repeat center 5%/cover;
   
 
   #mainheader{
@@ -319,4 +319,73 @@ input:focus{
   background-color: #fff;
   color: rgb(226, 21, 21);
   cursor: pointer;
+}
+
+// About
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+.frequently{
+  h1{
+    text-align: center;
+  }
+  
+}
+
+.wrapone{
+  margin: 30px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.question{
+  background-color: #333;
+  color: #fff;
+}
+
+.questiontext{
+  display: none;
+}
+
+.showtext .questiontext{
+  display: block;
+}
+
+.minusicon{
+  display: none;
+}
+
+.showtext .minusicon{
+  display: inline;
+}
+
+.plusicon{
+  display: block;
+}
+
+.showtext .plusicon{
+  display: none;
+}
+
+.plusicon:hover{
+  cursor: pointer;
+}
+
+#error{
+  color: red;
+  display: none;
+  text-align: center;
+  padding: 0.1rem;
+  background-color: pink;
+}
+#success{
+  color: green;
+  display: none;
+  text-align: center;
+  padding: 0.1rem;
+  background-color: lawngreen;
 }
